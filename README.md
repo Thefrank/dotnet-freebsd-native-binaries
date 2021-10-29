@@ -1,1 +1,16 @@
 # dotnet-freebsd-native-binaries
+Native built, via bootstrap, dotnet under FreeBSD
+
+## Why should I use this?
+ - It is crossgen'd (https://github.com/dotnet/runtime/blob/main/docs/workflow/building/coreclr/crossgen.md)
+   - The native build with azure pipelines is a flex
+   - This is the public output of a private build
+
+## What's Used?
+- Bootstrap and NuGet files crossbuilt under Linux from: https://github.com/Thefrank/dotnet-freebsd-crossbuild
+- Scripts from: https://github.com/sec/dotnet-core-freebsd-source-build
+- Azure build logic from: https://github.com/Servarr/dotnet-bsd/
+- Working Azure Pipelines Agent: https://github.com/Thefrank/azure-pipelines-agent-freebsd
+
+## How do I use this?
+- See here: https://github.com/Thefrank/dotnet-freebsd-crossbuild
