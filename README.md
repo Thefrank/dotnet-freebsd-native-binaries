@@ -6,6 +6,10 @@ Native built, via bootstrap, dotnet under FreeBSD
    - The native build with azure pipelines is a flex
    - This is the public output of a private build
 
+## What is here?
+ - Generally, The FreeBSD-x64 (AMD64) SDKs for 3.1 and 6.0.
+ - 5.0 can be requested, but is a low priority as it will EOL much sooner than 3.1 or 6.0
+
 ## What's Used?
 - Bootstrap and NuGet files crossbuilt under Linux from: https://github.com/Thefrank/dotnet-freebsd-crossbuild
 - Scripts from: https://github.com/sec/dotnet-core-freebsd-source-build
