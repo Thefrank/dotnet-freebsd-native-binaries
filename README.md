@@ -1,3 +1,9 @@
+# Updates?!
+This repo is older builds and mostly unmaintained in favor of:
+ - Native builds (AMD64 + AARCH64): https://github.com/sec/dotnet-core-freebsd-source-build
+ - Crossbuilds (AMD64): https://github.com/Thefrank/dotnet-freebsd-crossbuild
+ - Source builds: Soon(TM)
+
 # dotnet-freebsd-native-binaries
 Native built, via bootstrap, dotnet under FreeBSD
 
